@@ -43,6 +43,69 @@ footer {
   padding-top: 20px;
 }
 
-/* ================================ */
-/* Add your CSS below this line */
-/* ================================ */
+main {
+  margin-top: 40px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+.shop {
+  display: flex;
+  gap: 40px;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.products {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-card figcaption {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
