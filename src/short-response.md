@@ -6,7 +6,7 @@ Answer the following questions in 2-4 sentences each. Be specific and use vocabu
 
 What is the difference between a **flex container** and a **flex item**? How do you make an element a flex container?
 
-**Your Answer:**
+A
 
 ## Question 2: Main Axis vs Cross Axis
 
